@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/submit" method="post">
+        <h1 id="heading">Capital Quiz</h1>
+        <hr>
+        <p>Test your knowledge of the world's capitals</p>
+        <h1 id="countryName"><%= question.country %></h1>
+        
+            <div class="box">
+            <input type="text" name="ans" id="name" placeholder="Enter the capital">
+            <input type="submit" name="Submit" id="submit">
+        </div>
+        
+        <h3>Total Score:<span id="score"><%= locals.totalScore ? totalScore : "0" %></span> </h3>
+    </form>
+    </div>
+</body>
+<script>
+var wasCorrect = "<%= locals.wasCorrect %>";
+    console.log(wasCorrect)
+    if (wasCorrect === "false") {
+      alert('Game over! Your final score: <%= locals.totalScore %>');
+      
+      document.body.innerHTML = '<a href="/" class="restart-button">Restart</a>'
+    }
+</script>
+</html>
