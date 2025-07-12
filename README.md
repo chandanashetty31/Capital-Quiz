@@ -24,15 +24,15 @@ A dynamic Node.js web application that challenges users to name the capital citi
 
 1️⃣ Clone the repository
 
-<br>
 git clone https://github.com/yourusername/capital-quiz-app.git <br>
 cd capital-quiz-app
 
+<br>
 2️⃣ Install dependencies
 
-<br>
 npm install
 
+<br>
 3️⃣ Setup PostgreSQL Database <br>
 Create a PostgreSQL database and table
 
