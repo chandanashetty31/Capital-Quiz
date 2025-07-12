@@ -42,7 +42,7 @@ In the root directory:
 <br>
 database=your_db_name<br>
 password=your_db_password<br>
-
+<br>
 5️⃣ Run the app
 <br>
 node index.js<br>
