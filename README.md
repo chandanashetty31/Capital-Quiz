@@ -36,6 +36,7 @@ npm install
 3️⃣ Setup PostgreSQL Database <br>
 Create a PostgreSQL database and table
 
+<br>
 4️⃣ Create .env file
 In the root directory:
 <br>
