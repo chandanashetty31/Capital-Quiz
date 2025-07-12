@@ -1,6 +1,49 @@
-It's a Quiz related to the capitals of the countries in the world.
-It calculates our total score and displays it and also alerts the message once we have typed a wrong answer.
-It is bulit with **HTML,CSS,JAVASCRIPT** in the frontend.
-In the backend I have used **NODE.JS,EXPRESS**.
-For database I have used **POSTGRESQL**.
-I have also used templating engine **EJS**.
+## 🌍 Capital Quiz Web App
+A dynamic Node.js web application that challenges users to name the capital cities of randomly selected countries. Built using Express.js, PostgreSQL, and EJS templates, the app tracks user answers and displays a final score upon incorrect submission.
+
+### 🔧 Features
+🌐 Dynamic country-capital questions loaded from PostgreSQL <br>
+
+💡 Instant validation of user answers (case-insensitive)<br>
+
+📈 Score tracking per session<br>
+
+🎨 Simple, responsive EJS-based UI<br>
+
+🗃️ Easily extendable question set using the capital table<br>
+
+## 🛠️ Tech Stack
+
+
+Frontend	HTML, CSS, EJS<br>
+Backend	Node.js, Express.js<br>
+Database	PostgreSQL<br>
+
+
+### 📦 Installation
+
+1️⃣ Clone the repository
+<br>
+git clone https://github.com/yourusername/capital-quiz-app.git <br>
+cd capital-quiz-app
+<br>
+2️⃣ Install dependencies
+<br>
+npm install
+<br>
+3️⃣ Setup PostgreSQL Database <br>
+Create a PostgreSQL database and table
+
+4️⃣ Create .env file
+In the root directory:
+<br>
+database=your_db_name<br>
+password=your_db_password<br>
+
+5️⃣ Run the app
+<br>
+node index.js<br>
+Then open:<br> 
+👉 http://localhost:3000
+
+
