@@ -15,19 +15,21 @@ A dynamic Node.js web application that challenges users to name the capital citi
 ## 🛠️ Tech Stack
 
 
-Frontend	HTML, CSS, EJS<br>
-Backend	Node.js, Express.js<br>
-Database	PostgreSQL<br>
+-Frontend	HTML, CSS, EJS<br>
+-Backend	Node.js, Express.js<br>
+-Database	PostgreSQL<br>
 
 
 ### 📦 Installation
 
 1️⃣ Clone the repository
+
 <br>
 git clone https://github.com/yourusername/capital-quiz-app.git <br>
 cd capital-quiz-app
 <br>
 2️⃣ Install dependencies
+
 <br>
 npm install
 <br>
